@@ -10,8 +10,7 @@ import SwiftUI
 @main
 struct HRMonitorApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+WindowGroup { HRRootView() }
     }
 }
+
